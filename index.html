@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+	<title>Sécurité routière</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <body>
+  <section>
+	<button type="button" onclick="AfficheDate()">Cliquer pour avoir la date </button>
+	<p id="date"></p>
+	<p id="TexteModif" class='Texte'>Vert ou Rouge ?</p>
+	<button onclick="ModifTexteRouge()">Change le texte en rouge</button>
+	<button onclick="ModifTexteVert()">Change le texte en vert</button>
+	<figure>
+		<img id='Image' src="Images/feu_vert.jpg" alt="feu_vert" style="visibility: visible;"/>		
+	</figure>
+	<button onclick="ModifImage('Image')">Change l'image</button>
+	
+	<p id="paragraphe" onmouseover="setWhite()" onmouseout="setInitial()" style="color:DodgerBlue;">Lors de chaque déplacement, les usagers croisent des panneaux de signalisation, aussi nommés “éléments de signalisation verticale”. Ce type de signalisation répond à trois missions fondamentales :<br>avertir des dangers à l'aide des panneaux triangulaires<br>signaler une interdiction ou une obligation à l'aide des panneaux ronds<br>donner des indications et des informations lors d'un trajet</p>
+	<button id="myButton" onclick="changeColor()">Change Couleur</button>
+	<script src="scripts/code.js"> </script>	
+	<h1 onmouseover="AfficherMasquer()">Pour votre sécurité et celle des autres, respectez les règles de la route<br>(le passage sur ce texte retire l'image ci-dessus) </h1>
+	<section>
+  </body>
+</html>
