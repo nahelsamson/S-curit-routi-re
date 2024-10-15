@@ -11,11 +11,11 @@ function ModifTexteVert(){
 }
 function ModifImage(Image){
 	var img=document.getElementById(Image);
-	if(img.src.match("Images/feu_rouge.jpg")){
-		img.src="Images/feu_vert.jpg";	
+	if(img.src.match("feu_rouge.jpg")){
+		img.src="feu_vert.jpg";	
 	}
 	else{
-		img.src="Images/feu_rouge.jpg";
+		img.src="feu_rouge.jpg";
 	}
 }
 function AfficherMasquer(){
